@@ -4,7 +4,7 @@
 @import "./Partials/Font-Medidas";
 @import "./Partials/Medidas";
 
-/*Estilos*/
+/*Background*/
 
 body{
     background-color: rgba(164, 163, 161, 0.201);
@@ -13,6 +13,8 @@ body{
 footer{
     background-color: rgba(158, 129, 71, 0.201);
 }
+
+/*Titulos*/
 
 .Titular{
     font-family: $font-subtitles;
@@ -28,6 +30,8 @@ footer{
     text-shadow: 0px 0px 0px;
 }
 
+/*Texto de los proyectos*/
+
 .TextoCasas{
     text-align: center;
     &__titulo{
@@ -42,6 +46,8 @@ footer{
         color: $texto_casas;
     }
 }
+
+/*Servicios seccion Estuio31*/
 
 .Servicios {
     text-align: center;
@@ -71,9 +77,7 @@ footer{
     }
 }
 
-.Servicios:hover{
-    border: black 10px;
-}
+/*Header*/
 
 .Header{
     display: flex;
@@ -93,24 +97,13 @@ footer{
 
 }
 
-.table{
-    display: flex;
-    &__uno{
-        align-items: center;
-    }
-    &__dos{
-        text-align: center;
-        font-family: $font-subtitles;
-    }
-    &__tres{
-        text-align: left;
-        font-family: $font-textos;
-    }
-
-}
+/*Footer*/
 
 .Footer{
     display: flex;
+}
+
+.Logos{
     margin-left: 1rem;
     &__insta{
         height: 25px;
@@ -126,10 +119,49 @@ footer{
     }
 }
 
+.Pinocho{
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 27rem;
+    
+}
+
+/*Efectos imagenes proyectos*/
+
 .Imagenes:hover{
     transform: scale(1.1, 1.1);
 }
 
+/*Media query*/
 
-/*Medias queries*/
+@media only screen and (max-width: 1024px){
+    .Pinocho{
+        font-size: 1rem;
+        margin-left: 16rem;
+        
+    }
+}
 
+@media only screen and (max-width: 768px){
+    .Pinocho{
+        font-size: 0.8rem;
+        margin-left: 10rem;
+        
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .Pinocho{
+        font-size: 15px;
+        margin-left: 27px;
+        
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .Pinocho{
+        font-size: 10px;
+        margin-left: 4px;
+        
+    }
+}

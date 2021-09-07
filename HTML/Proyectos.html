@@ -14,7 +14,9 @@
     <meta name="description" content="Estudio de arquitectura, render y 3D">
     <meta name="keywords" content="Proyectos, casas, modelos, imagenes de casas, chalet, terrenos, ambientes, render, renders, imagenes 3D"> 
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../SASS/Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,16 +36,17 @@
 <body>
 <!-- Header --> 
     <header>
+    <!-- Inicio NavBar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 mb-2 bg-transparent text-dark" class="col-md-4">
             <div class="container-fluid Header">
-                <a class="navbar-brand" href="../Index.html"><img  src="../Fotos/Logo 2.png" class="Header__img" alt=""></a>
+                <a class="navbar-brand" href="../index.html"><img  src="../Fotos/Logo 2.png" class="Header__img" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item Header__link">
-                            <a class="nav-link active NavDeco" aria-current="page" href="../Index.html">Inicio</a>
+                            <a class="nav-link active NavDeco" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item Header__link">
                             <a class="nav-link NavDeco" href="#">Proyectos</a>
@@ -58,10 +61,12 @@
                 </div>
             </div>
         </nav>
+    <!-- Fin NavBar -->    
     </header> 
 <!-- Fin header --> 
 
 <!-- Main --> 
+    <!-- Titulo -->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -69,7 +74,8 @@
             </div>
         </div>
     </div>
-    
+    <!-- Fin titulo -->
+    <!-- Imagenes -->    
     <section class="container-fluid mt-3">
         <div class="row" >
             <div class="col-md-4 Imagenes">
@@ -89,15 +95,22 @@
             </div>
         </div>
     </section>
+    <!-- Fin imagenes -->
 <!-- Fin main -->
+
 <!-- Footer -->  
-    <footer> 
-        <div class="Footer mt-5">
-            <a class="navbar-brand" href="https://www.instagram.com/estudio31arquitectura/"><img src="../IconosRedes/instagram.png" class="Footer__insta" alt="Instagram"></a>
-            <a class="navbar-brand" href="https://www.linkedin.com/in/leandro-di-mattia-84a915158/?originalSubdomain=ar"><img src="../IconosRedes/Linkedin.png" class="Footer__linked" alt="Linkedin"></a>     
-            <a class="navbar-brand" href="./HTML/Contacto.html"><img src="../IconosRedes/Correo.png" class="Footer__correo" alt="Correo"></a>
+<footer> 
+    <div class="Footer mt-3">
+        <div class="Logos">
+            <a class="navbar-brand" href="https://www.instagram.com/estudio31arquitectura/"><img src="../IconosRedes/instagram.png" class="Logos__insta" alt="Instagram"></a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/leandro-di-mattia-84a915158/?originalSubdomain=ar"><img src="../IconosRedes/Linkedin.png" class="Logos__linked" alt="Linkedin"></a>     
+            <a class="navbar-brand" href="./Contacto.html"><img src="../IconosRedes/Correo.png" class="Logos__correo" alt="Correo"></a>
+        </div> 
+        <div class="Pinocho">
+            <p>Creado por ValentinLallanaDEV Ⓒ </p>
         </div>
-    </footer>
+    </div>
+  </footer>
 <!-- Fin footer --> 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

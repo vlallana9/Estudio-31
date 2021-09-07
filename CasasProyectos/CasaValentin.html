@@ -11,10 +11,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Complejo Valentin</title>
     <meta name="description" content="Estudio de arquitectura, render y 3D">
     <meta name="keywords" content="Proyectos, casas, modelos, imagenes de casas, chalet, terrenos, ambientes, render, renders, imagenes 3D"> 
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../SASS/Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,16 +38,17 @@
 <body>
 <!-- Header --> 
     <header>
+<!-- NavBar --> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 mb-2 bg-transparent text-dark" class="col-md-4">
             <div class="container-fluid Header">
-                <a class="navbar-brand" href="../Index.html"><img  src="../Fotos/Logo 2.png" class="Header__img" alt=""></a>
+                <a class="navbar-brand" href="../index.html"><img  src="../Fotos/Logo 2.png" class="Header__img" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item Header__link">
-                            <a class="nav-link active NavDeco" aria-current="page" href="../Index.html">Inicio</a>
+                            <a class="nav-link active NavDeco" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item Header__link">
                             <a class="nav-link NavDeco" href="../HTML/Proyectos.html">Proyectos</a>
@@ -58,9 +63,11 @@
                 </div>
             </div>
         </nav>
+  <!-- Fin NavBar --> 
     </header>
 <!-- Fin header --> 
-<!-- Main --> 
+<!-- Main -->
+<!-- Texto -->  
     <div class="container TextoCasas">
         <div class="row">
             <div class="col-md-12 mt-3 TextoCasas__ppal">
@@ -72,7 +79,8 @@
               </div>
         </div>
     </div>
-
+<!-- Fin texto --> 
+<!-- Carousel --> 
     <div class="container-fluid">
         <div class="row">
             <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-8 offset-md-2" data-bs-ride="carousel">
@@ -94,10 +102,7 @@
                   </div>
                   <div class="carousel-item">
                     <img src="./CasaValentin/1_Exterior - 7 1.jpg" class="d-block w-100" alt="CasaValentin-EXTERIOR">
-                  </div>     
-                  <div class="carousel-item">
-                    <img src="./Casa alentin/1_Exterior - 8 1.jpg" class="d-block w-100" alt="CasaValentin-EXTERIOR">
-                  </div>     
+                  </div>   
                   <div class="carousel-item">
                     <img src="./CasaValentin/1_Exterior - 9 1.jpg" class="d-block w-100" alt="CasaValentin-EXTERIOR">
                   </div>
@@ -131,16 +136,23 @@
             </div>
         </div>
     </div>
+<!-- -Fin carousel --> 
 <!-- Fin main -->     
 
 <!-- Footer --> 
-    <footer> 
-        <div class="Footer mt-5">
-            <a class="navbar-brand" href="https://www.instagram.com/estudio31arquitectura/"><img src="../IconosRedes/instagram.png" class="Footer__insta" alt="Instagram"></a>
-            <a class="navbar-brand" href="https://www.linkedin.com/in/leandro-di-mattia-84a915158/?originalSubdomain=ar"><img src="../IconosRedes/Linkedin.png" class="Footer__linked" alt="Linkedin"></a>     
-            <a class="navbar-brand" href="./HTML/Contacto.html"><img src="../IconosRedes/Correo.png" class="Footer__correo" alt="Correo"></a>
-        </div>
-    </footer>
+
+<footer> 
+  <div class="Footer mt-3">
+      <div class="Logos">
+          <a class="navbar-brand" href="https://www.instagram.com/estudio31arquitectura/"><img src="../IconosRedes/instagram.png" class="Logos__insta" alt="Instagram"></a>
+          <a class="navbar-brand" href="https://www.linkedin.com/in/leandro-di-mattia-84a915158/?originalSubdomain=ar"><img src="../IconosRedes/Linkedin.png" class="Logos__linked" alt="Linkedin"></a>     
+          <a class="navbar-brand" href="../HTML/Contacto.html"><img src="../IconosRedes/Correo.png" class="Logos__correo" alt="Correo"></a>
+      </div> 
+      <div class="Pinocho">
+          <p>Creado por ValentinLallanaDEV Ⓒ </p>
+      </div>
+  </div>
+</footer>
 <!-- Fin footer --> 
 
 

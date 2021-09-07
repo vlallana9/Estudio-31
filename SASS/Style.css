@@ -1,5 +1,5 @@
 /*Imports*/
-/*Estilos*/
+/*Background*/
 body {
   background-color: rgba(164, 163, 161, 0.201);
 }
@@ -8,6 +8,7 @@ footer {
   background-color: rgba(158, 129, 71, 0.201);
 }
 
+/*Titulos*/
 .Titular {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2.5rem;
@@ -23,6 +24,7 @@ footer {
   text-shadow: 0px 0px 0px;
 }
 
+/*Texto de los proyectos*/
 .TextoCasas {
   text-align: center;
 }
@@ -40,6 +42,7 @@ footer {
   color: #ab2d07;
 }
 
+/*Servicios seccion Estuio31*/
 .Servicios {
   text-align: center;
 }
@@ -77,10 +80,7 @@ footer {
           align-items: center;
 }
 
-.Servicios:hover {
-  border: black 10px;
-}
-
+/*Header*/
 .Header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,53 +105,71 @@ footer {
   font-weight: bold;
 }
 
-.table {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.table__uno {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.table__dos {
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.table__tres {
-  text-align: left;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-
+/*Footer*/
 .Footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.Logos {
   margin-left: 1rem;
 }
 
-.Footer__insta {
+.Logos__insta {
   height: 25px;
   width: 25px;
 }
 
-.Footer__linked {
+.Logos__linked {
   height: 25px;
   width: 25px;
 }
 
-.Footer__correo {
+.Logos__correo {
   height: 25px;
   width: 25px;
 }
 
+.Pinocho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+  margin-left: 27rem;
+}
+
+/*Efectos imagenes proyectos*/
 .Imagenes:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
 
-/*Medias queries*/
+/*Media query*/
+@media only screen and (max-width: 1024px) {
+  .Pinocho {
+    font-size: 1rem;
+    margin-left: 16rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Pinocho {
+    font-size: 0.8rem;
+    margin-left: 10rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .Pinocho {
+    font-size: 15px;
+    margin-left: 27px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Pinocho {
+    font-size: 10px;
+    margin-left: 4px;
+  }
+}
