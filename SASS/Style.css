@@ -63,8 +63,13 @@ footer {
 
 .Servicios__titulo {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #831e1e;
+}
+
+.Servicios__texto1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.35rem;
 }
 
 .Servicios__texto {

@@ -63,13 +63,20 @@ footer{
     }
     &__titulo{
         font-family: $font-subtitles;
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: $color-titulos;
     }
+
+    &__texto1{
+        font-family: $font-textos;
+        font-size: 1.35rem;
+    }
+
     &__texto{
         font-family: $font-textos;
         font-size: 1.2rem;
     }
+
     &__iconos{
         height: 6rem;
         width: 6rem;
@@ -151,6 +158,7 @@ footer{
         font-size: 0.8rem;
         margin-left: 10rem;        
     }
+    
 }
 
 @media only screen and (max-width: 425px){
