@@ -101,6 +101,8 @@ footer{
 
 .Footer{
     display: flex;
+    position: relative;
+    margin-bottom: 0px;
 }
 
 .Logos{
@@ -138,15 +140,16 @@ footer{
     .Pinocho{
         font-size: 1rem;
         margin-left: 16rem;
-        
+    }
+    .Bunny{
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 768px){
     .Pinocho{
         font-size: 0.8rem;
-        margin-left: 10rem;
-        
+        margin-left: 10rem;        
     }
 }
 

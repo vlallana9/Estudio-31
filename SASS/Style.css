@@ -110,6 +110,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  margin-bottom: 0px;
 }
 
 .Logos {
@@ -150,6 +152,9 @@ footer {
   .Pinocho {
     font-size: 1rem;
     margin-left: 16rem;
+  }
+  .Bunny {
+    width: 100%;
   }
 }
 
